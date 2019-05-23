@@ -8,4 +8,4 @@ the client to add or remove any new testimonials for their work and any projects
 This site is by no means a production ready site.  In production there would not be a BIG RED admin button.  There would be a hidden /admin
 url for the owner of the site to access the admin functionality (with a login).  This is just a practice site for me.
 
-![Perrennial Designs](https://github.com/idleist/perrennialdesigns/public/images/PerrennialDesignsScreenshot.png)
+![Perrennial Designs](https://github.com/idleist/perrennialdesigns/blob/master/public/images/PerrennialDesignsScreenshot.png)

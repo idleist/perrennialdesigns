@@ -24,7 +24,7 @@ const bodyParser = require("body-parser");
 var Testimonial = require("./models/testimonials");
 var Project = require("./models/projects");
 
-var port = process.env.port || 3000;
+var port = process.env.PORT || 3000;
 
 // Link public directory to access static files
 app.use(express.static(path.join(__dirname, "/public")));

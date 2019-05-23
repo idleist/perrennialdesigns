@@ -21,7 +21,7 @@ router.post("/send", function(req, res) {
   });
   var mailOptions = {
     from: `Ben <${process.env.EMAIL_USER}>`,
-    to: req.body.email,
+    to: `${req.body.email}`,
     subject: "Website Submission",
     text:
       "you have submitted a message... Name:" +

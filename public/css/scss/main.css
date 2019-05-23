@@ -139,7 +139,6 @@ header .logo_header .header_contact {
 
 nav {
   height: 40px;
-  margin-bottom: 15px;
   background-color: #065b13;
   width: 100%;
   display: -webkit-box;
@@ -177,7 +176,7 @@ nav ul li a:hover, nav ul li a:active {
   width: 100%;
   position: absolute;
   bottom: 0;
-  z-index: -50;
+  z-index: 1;
 }
 
 footer {
@@ -249,6 +248,7 @@ footer .copyright {
 }
 
 .project_card {
+  background-color: #eee;
   border: 1px solid black;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
@@ -435,7 +435,8 @@ textarea:invalid {
   font-size: 1.4em;
 }
 
-.testimonial--listitem .testimonial--deletebtn {
+.testimonial--deletebtn,
+.project--deletebtn {
   width: 15px;
   height: 15px;
   position: absolute;
@@ -456,12 +457,15 @@ textarea:invalid {
           justify-content: center;
 }
 
-.testimonial--listitem .testimonial--deletebtn i {
+.testimonial--deletebtn i,
+.project--deletebtn i {
   font-size: 10px;
 }
 
 .projects--container {
   width: 80%;
+  margin-bottom: 15em;
+  text-align: justify;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -472,14 +476,21 @@ textarea:invalid {
 }
 
 .projects--container .project--listitem {
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 20px 5px;
+  margin-bottom: 2em;
+  padding: 0.2em;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .projects--container .project--listitem img {
-  width: 150px;
-  height: 100px;
+  margin-right: 0.5em;
+  width: 8em;
+  height: 8em;
 }
 
 #testimonialsContainer {

@@ -81,7 +81,6 @@ header {
 
 nav {
   height: 40px;
-  margin-bottom: 15px;
   background-color: color(primary);
   width: 100%;
   display: flex;
@@ -112,7 +111,7 @@ nav {
   width: 100%;
   position: absolute;
   bottom: 0;
-  z-index: -50;
+  z-index: 1;
 }
 
 footer {

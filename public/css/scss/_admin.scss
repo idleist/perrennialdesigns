@@ -130,38 +130,47 @@ textarea:invalid {
   &-message {
     font-size: 1.4em;
   }
+}
 
-  .testimonial--deletebtn {
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    color: #fff;
-    border-radius: 50%;
-    background: red;
-    cursor: pointer;
-    top: 5px;
-    right: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.testimonial--deletebtn,
+.project--deletebtn {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  color: #fff;
+  border-radius: 50%;
+  background: red;
+  cursor: pointer;
+  top: 5px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    i {
-      font-size: 10px;
-    }
+  i {
+    font-size: 10px;
   }
 }
 
 .projects--container {
   width: $form-width;
+  margin-bottom: 15em;
+  text-align: justify;
   display: flex;
   flex-direction: column;
 
   .project--listitem {
+    box-shadow: $form-shadow;
+    border-radius: $form-border-radius;
+    margin-bottom: 2em;
+    padding: 0.2em;
+    position: relative;
     display: flex;
 
     img {
-      width: 150px;
-      height: 100px;
+      margin-right: 0.5em;
+      width: 8em;
+      height: 8em;
     }
   }
 }

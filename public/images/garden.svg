@@ -49,13 +49,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.60625"
-     inkscape:cx="640"
-     inkscape:cy="-97.422696"
+     inkscape:cx="688.92317"
+     inkscape:cy="167.21369"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:snap-page="true"
+     inkscape:snap-page="false"
      inkscape:snap-global="true"
      inkscape:window-width="1280"
      inkscape:window-height="979"
@@ -70,7 +70,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -81,13 +81,15 @@
      transform="translate(0,-221.33589)">
     <g
        id="g1101"
-       clip-path="url(#clipPath1124)">
+       clip-path="url(#clipPath1124)"
+       transform="matrix(1.0004671,0,0,1,0.00570794,0)">
       <path
          clip-path="url(#clipPath819)"
          inkscape:connector-curvature="0"
          id="path815"
-         d="m 0,283.03436 c 0,0 38.405498,-23.56701 120.45361,-20.0756 82.0481,3.49141 64.59106,13.52921 110.85223,17.02062 46.26118,3.49141 87.28522,-1.74571 98.6323,-6.54639 11.34708,-4.80069 23.56702,-7.41924 23.56702,-7.41924 l -11.78351,46.26116 -288.91409,1.74571 -55.8625428,-1.74571 -9.1649482,-18.76632 z"
-         style="fill:#065b13;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         d="m 0,283.03436 c 0,0 62.889109,-25.40908 120.45361,-20.0756 51.14107,4.73834 64.59106,13.52921 110.85223,17.02062 46.26118,3.49141 57.6221,0.87285 98.6323,-6.54639 12.12334,-2.19326 23.56702,-7.41924 23.56702,-7.41924 l -11.78351,46.26116 -288.91409,1.74571 -55.8625428,-1.74571 -9.1649482,-18.76632 z"
+         style="fill:#065b13;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:nodetypes="cssscccccc" />
       <g
          transform="matrix(0.65891476,0,0,0.65891476,27.156525,11.547393)"
          id="g853">

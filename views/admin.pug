@@ -29,7 +29,7 @@ block content
                 each testimonial in testimonials
                     .testimonial--listitem
                         a.testimonial--deletebtn(href=`/admin/testimonial/delete/${testimonial._id}`) 
-                            i(class="far fa-trash-alt")
+                            i(class="fas fa-times")
                         p.testimonial--listitem-message=testimonial.message
                         p.testimonial--listitem-name=testimonial.name
 
@@ -58,7 +58,7 @@ block content
                 each project in projects
                     .project--listitem
                         a.project--deletebtn(href=`/admin/projects/delete/${project._id}`) 
-                            i(class="far fa-trash-alt")
+                            i(class="fas fa-times")
                         img(src=`./uploads/${project.imageSource}`)
                         .project--listitem-desc
                             h2.project--listitem-name=project.name

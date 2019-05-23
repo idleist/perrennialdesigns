@@ -32,6 +32,7 @@ p {
   position: relative;
   flex: 1;
 }
+
 header {
   p {
     color: color(primary);
@@ -59,9 +60,9 @@ header {
 }
 .contact_button,
 .admin_button {
-  padding: 5px 15px;
+  padding: 0.2em 0.6em;
   border-radius: 5px;
-  margin-right: 5px;
+  margin-right: 0.3em;
 }
 
 .contact_button {
@@ -92,10 +93,10 @@ nav {
     list-style-type: none;
 
     li {
-      margin: 0 10px;
+      margin: 0 0.5em;
 
       a {
-        font-size: 1.1em;
+        font-size: 1.1rem;
         color: white;
 
         &:hover,
@@ -111,7 +112,7 @@ nav {
   width: 100%;
   position: absolute;
   bottom: 0;
-  z-index: 1;
+  z-index: -1;
 }
 
 footer {
@@ -124,23 +125,23 @@ footer {
     color: white;
 
     .footer_contact {
-      padding: 15px;
+      padding: 1em;
       // height: 100px;
     }
 
     .footer_contact_details {
-      padding: 15px;
+      padding: 1em;
     }
   }
 
   .copyright {
     text-align: center;
     color: color(accent);
-    margin-bottom: 10px;
+    margin-bottom: 1em;
   }
 }
 
 .footer_contact_text {
   color: white;
-  padding-bottom: 10px;
+  padding-bottom: 0.2em;
 }

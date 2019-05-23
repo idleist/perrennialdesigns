@@ -23,7 +23,7 @@
 
 .testimonial {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: color(primary);
   margin-bottom: 5px;
 }
@@ -33,16 +33,6 @@
   color: color(accent);
 }
 
-.carouselIndicator {
-  border-radius: 50%;
-  width: 5px;
-  height: 15px;
-  border: 0;
-  margin: 5px;
-  background: rgba(0, 0, 0, 0.3);
-  cursor: pointer;
-}
-
-.currentSlide {
-  background: rgba(0, 0, 0, 0.7);
-}
+// .currentSlide {
+//   background: rgba(199, 38, 38, 0.7);
+// }
